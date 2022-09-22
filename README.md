@@ -69,7 +69,7 @@ machine_learning_trading_bot.ipynb
   * By increasing the SMA Fast setting from a 4 day moving average to a 50 moving average
   * By increasing the SMA Slow setting from a 100 day moving average to a 200 moving average
   * By increasing the 3 month training data to a 6 month training data
-  * The newly tuned model had an accuracy precision score of 57% in predicting when to enter a trade and a precision score of 45% in predicting when to exit a trade.  The recall score has improved from
+  * This newly tuned model had an accuracy precision score of 57% in predicting when to enter a trade and a precision score of 45% in predicting when to exit a trade.  The recall score has improved from
     the baseline of 4% to now 35% in it's prediction on exiting a trade even though the entering a trade prediction recall score decreased slightly to 73%.  The overall accuracy F1-score remains 
     relatively the same at around 55%.
   * Refer to the svc_returns_optimized_settings.png plot
